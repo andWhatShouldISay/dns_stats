@@ -1,0 +1,8 @@
+{% if error %}
+{{ error_body }}
+{% else %}
+{% for record in stats %}
+<br> {{ record }} </br>
+{% endfor %}
+{% endif %}
+ 
